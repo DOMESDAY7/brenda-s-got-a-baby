@@ -1,0 +1,45 @@
+@media (max-width: 600px) {
+    .playbutton{
+        top: 7%;
+        left: 45%;
+        text-align: center;
+        width: 10%;
+    }
+    .titre{
+        
+        margin-top: 10%;
+        text-align: center;
+        font-size: 2rem;
+
+    }
+    .parole{
+        line-height: 4vh;
+        font-size: 1rem;
+        
+        
+    }
+    nav{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        top: -30px;
+        padding: 5%;
+        
+
+    }
+    .contain_parole{
+        height: 60%;
+        width: 50vw;
+        left: 30%;
+    }
+  
+    .contain_rep{
+  
+        display: none;
+        /* sur téléphone pas de signification des paroles */
+        
+      
+      
+      }
+    
+}

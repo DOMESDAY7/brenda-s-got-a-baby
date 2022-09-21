@@ -1,0 +1,42 @@
+
+#cigarette{
+    transform: scale(0.1);
+    position: absolute;
+    top: 56%;
+    right:73%;
+    z-index: -1;
+}
+.cercleFume{
+    width: 9.293680297397769vw;
+    height: 9.293680297397769vw;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 56%;
+    right: 80%;
+    z-index: 2;
+    opacity: 80%;
+    transform: scale(0.25);
+    animation: smokeCigarette 2s infinite;
+}
+@keyframes smokeCigarette {
+    0%{
+        opacity: 0.5;
+
+    }
+    50%{
+        transform: scale(2);
+        opacity: 1;
+        right: 50%;
+
+    }
+    100%{
+        opacity: 0;
+        right: 50%;
+        top:30%;
+        transform: scale(2.5);
+
+        
+
+    }
+}

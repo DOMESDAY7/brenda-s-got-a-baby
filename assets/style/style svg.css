@@ -1,0 +1,165 @@
+.cls-1 {
+    fill: #4c4c4c;
+}
+
+.cls-2 {
+    fill: #777;
+}
+
+.cls-3 {
+    fill: #4d4d4d;
+}
+
+.cls-4 {
+    fill: gray;
+}
+
+.cls-5 {
+    fill: #333;
+}
+
+.cls-6 {
+    fill: #969696;
+}
+
+.cls-7 {
+    fill: #232323;
+}
+
+.cls-8 {
+    fill: #1f1f1f;
+    
+}
+
+.cls-9 {
+    fill: #1c1c1c;
+}
+
+.cls-10 {
+    fill: #6c6c6c;
+}
+
+.cls-11 {
+    fill: #0a0a0a;
+}
+
+.cls-12 {
+    fill: #3a3a3a;
+}
+
+.cls-13 {
+    fill: #222;
+}
+
+.cls-14 {
+    fill: #979797;
+}
+
+.cls-15 {
+    fill: url(#Dégradé_sans_nom_21);
+}
+
+.cls-16 {
+    fill: url(#Dégradé_sans_nom_20);
+}
+
+.cls-17 {
+    fill: #1a1a1a;
+}
+
+.cls-18 {
+    fill: #757575;
+}
+
+.cls-19 {
+    fill: #4a4a4a;
+}
+
+.cls-20 {
+    fill: #797979;
+}
+
+.cls-21 {
+    fill: #292929;
+}
+
+.cls-22 {
+    fill: #595958;
+}
+
+.cls-23 {
+    fill: #9f9f9f;
+}
+
+.cls-24 {
+    fill: #494949;
+}
+
+.cls-25 {
+    fill: url(#Dégradé_sans_nom_21-2);
+}
+
+.cls-26 {
+    fill: url(#Dégradé_sans_nom_20-2);
+}
+
+.cls-27 {
+    opacity: 0.47;
+}
+
+.cls-28 {
+    fill: #8a8a8a;
+}
+
+.cls-29 {
+    fill: url(#Dégradé_sans_nom_21-3);
+}
+
+.cls-30 {
+    fill: url(#Dégradé_sans_nom_20-3);
+}
+
+.cls-31 {
+    fill: url(#Dégradé_sans_nom_21-4);
+}
+
+.cls-32 {
+    fill: url(#Dégradé_sans_nom_20-4);
+}
+
+.cls-33 {
+    fill: url(#Dégradé_sans_nom_8);
+}
+
+.cls-34 {
+    fill: url(#Dégradé_sans_nom_23);
+}
+
+.cls-35 {
+    fill: #2b1701;
+}
+
+.cls-36 {
+    fill: #000000;
+}
+
+.cls-37 {
+    opacity: 0.1;
+    isolation: isolate;
+}
+
+.cls-38 {
+    fill: #1b1b1b;
+}
+.bonhomme{
+    position: relative;
+    z-index:15;
+    border: solid red 1px;
+}
+.bandana{
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 3.5%;
+    z-index: 2;
+}

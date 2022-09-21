@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+
+    section>img {
+        width: 35%;
+        left: 65%;
+        z-index: -1;
+        bottom: -30%;
+    }
+    a{
+        left: 70%;
+        text-align: center;
+    }
+  
+    h1{
+        font-size: 2rem;
+
+    }
+    p{
+        width: 300px;
+    }
+    div{
+        opacity: 50%;
+        right: -70%;
+        height: 140vh;
+    }
+}

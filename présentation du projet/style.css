@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(27, 27, 27);
+    margin: 0;
+    height: 100%;
+}
+a{
+    padding: 2%;
+    background-color: grey;
+    font-size: 1rem;
+    font-family: 'Paytone One', sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+   position: relative;
+   transform: translate(-50%,-50%);
+   top: 10vh;
+   left: 2vw;
+    
+}
+
+h1{
+    font-family: smokeland;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+p{
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+.cont1{
+    position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.cont1>img{
+    width: 30%;
+    float: left;
+    animation: gravity infinite 3s;
+   
+}
+
+.cont2{
+    position: relative;
+    background-color: rgba(34, 34, 0, 0.37);
+    padding: 20px;
+    height: 50vh;
+}
+.cont2>p{
+    width: 400px;
+    margin-left: 8.5%;
+    text-align: center;
+    height: 100%;
+}
+.cont2>img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+    height: 100%;
+    
+}
+.cont2>div{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 5%;
+    background-color: black;
+    height: 100%;
+    width: 40vw;
+    transform: skewX(-20deg);
+}
+.cont3{
+    position: relative;
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.cont3>img{
+    width: 30%;
+    float: left;
+    animation: infinite stretch 5s;
+    
+}
+@keyframes gravity {
+    0%{}
+    50%{
+        transform: translateY(-3%);
+    }
+    100%{}
+}
+@keyframes stretch {
+    0%{}
+    50%{
+        transform: skew(30deg, 5deg);
+    }
+    100%{}
+}
